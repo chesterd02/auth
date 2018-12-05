@@ -1,0 +1,68 @@
+nohup: ignoring input
+before / Route
+Connected
+(node:6084) DeprecationWarning: collection.ensureIndex is deprecated. Use createIndexes instead.
+/login Route
+[0mGET /login [36m304 [0m11.949 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.628 ms - -[0m
+[0mPOST /login [36m302 [0m31.434 ms - 56[0m
+/login Route
+[0mGET /login [32m200 [0m1.978 ms - 735[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.635 ms - -[0m
+/signup Route
+[0mGET /signup [32m200 [0m2.788 ms - 783[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.102 ms - -[0m
+Begin exports.signup
+after new user exports.signup
+after hashing user exports.signup
+after email user exports.signup
+In exports.signup
+null
+[0mPOST /signup [36m302 [0m21.497 ms - 46[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-05T05:02:50.785Z,
+     originalMaxAge: 2628000000,
+     httpOnly: true },
+  msg: 'Authenticated as chester',
+  user: '5c0820dae891da17c4e1fb48',
+  username: 'chester' }
+/ Route if user
+[0mGET / [32m200 [0m4.586 ms - 787[0m
+[0mGET /javascripts/my_app.js [36m304 [0m2.159 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.596 ms - -[0m
+[0mGET /user/profile [32m200 [0m18.549 ms - 150[0m
+/user Route
+[0mGET /user [32m200 [0m1.222 ms - 1227[0m
+[0mGET /stylesheets/style.css [36m304 [0m5.686 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m5.510 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.475 ms - -[0m
+/user Route
+[0mGET /user [36m304 [0m1.707 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m3.415 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m3.416 ms - -[0m
+[0mGET /user/profile [36m304 [0m2.497 ms - -[0m
+[0mPOST /user/update [36m302 [0m5.699 ms - 54[0m
+/user Route
+[0mGET /user [32m200 [0m1.116 ms - 1216[0m
+[0mGET /stylesheets/style.css [36m304 [0m16.212 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m8.313 ms - -[0m
+[0mGET /user/profile [32m200 [0m1.841 ms - 164[0m
+/ Route
+Session {
+  cookie: 
+   { path: '/',
+     _expires: 2019-01-05T05:03:27.842Z,
+     originalMaxAge: 2627999999,
+     httpOnly: true },
+  msg: 'User Updated.',
+  user: '5c0820dae891da17c4e1fb48',
+  username: 'chester',
+  color: 'red' }
+/ Route if user
+[0mGET / [32m200 [0m1.678 ms - 779[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.824 ms - -[0m
+[0mGET /javascripts/my_app.js [36m304 [0m2.828 ms - -[0m
+[0mGET /user/profile [36m304 [0m5.455 ms - -[0m
